@@ -1,2 +1,5 @@
-package models;public interface iReport {
+package models;
+
+public interface iReport {
+    void generateReport(String text);
 }

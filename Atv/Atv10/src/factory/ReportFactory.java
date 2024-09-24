@@ -1,2 +1,7 @@
-package factory;public class ReportFactory {
+package factory;
+
+import models.iReport;
+
+public abstract class ReportFactory {
+    public abstract iReport generateReport();
 }
