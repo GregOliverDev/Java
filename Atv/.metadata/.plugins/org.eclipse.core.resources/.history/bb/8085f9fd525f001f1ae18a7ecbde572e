@@ -1,0 +1,10 @@
+
+public interface iVeiculo {
+	public void acelerar(Double valorAcelercao);
+
+	public void frear(Double valorPercentual);
+
+	public void ligar();
+
+	public void desligar();
+}

@@ -1,0 +1,6 @@
+
+public class Quadrado {
+	public Double lado = 0.0;
+
+	
+}

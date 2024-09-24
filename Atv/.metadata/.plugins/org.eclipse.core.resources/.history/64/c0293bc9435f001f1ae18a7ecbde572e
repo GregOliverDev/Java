@@ -1,0 +1,8 @@
+
+public class Quadrado {
+	public Double lado = 0.0;
+
+	public Double getPerimetro(Quadrado q) {
+		return (2.0 * this.lado);
+	}
+}

@@ -1,0 +1,15 @@
+
+public class Motorista {
+	public void ligar(iVeiculo veiculo) {
+
+	}
+	public void desligar(iVeiculo veiculo) {
+
+	}
+	public void acelerar(iVeiculo veiculo) {
+
+	}
+	public void frear(iVeiculo veiculo) {
+
+	}
+}

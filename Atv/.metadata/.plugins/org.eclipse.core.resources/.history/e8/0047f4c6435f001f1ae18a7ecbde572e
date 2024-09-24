@@ -1,0 +1,8 @@
+
+public class Circulo {
+	public Double raio = 0.0;
+
+	public Double getPerimetro(Circulo c) {
+		return (2.0 * this.raio);
+	}
+}

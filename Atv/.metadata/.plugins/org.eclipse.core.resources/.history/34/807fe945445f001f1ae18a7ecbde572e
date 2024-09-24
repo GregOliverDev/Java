@@ -1,0 +1,6 @@
+
+public class Circulo {
+	public Double raio = 0.0;
+
+	
+}

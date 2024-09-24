@@ -1,0 +1,25 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Carro carro = new Carro();
+		Motorista motora = new Motorista();
+		
+		Motocicleta motocicleta = new Motocicleta();
+
+		motora.ligar(carro);
+		System.out.println(carro.motor);
+		motora.desligar(carro);
+		System.out.println(carro.motor);
+		motora.acelerar(carro, 100.0);
+		System.out.println(carro.velocidade);
+		motora.frear(carro, 25.0);
+		System.out.println(carro.velocidade);
+		
+		motora.ligar(motocicleta);
+		motora.desligar(motocicleta);
+		motora.acelerar(motocicleta, 100.0);
+		motora.frear(motocicleta, 25.0);
+
+	}
+}

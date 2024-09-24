@@ -1,0 +1,17 @@
+drop table jogador 
+drop table equipe 
+drop table local 
+drop table monstro
+
+
+
+insert into monstro( id, nome, critico, dano, danoSanidade, descricao, NumSequencia,forca, vigor, intelecto, agilidade, presenca,sanidade,defesa,vida,status,alvo)
+values(1,'Viajante das Profundezas', 19, 3, 2, 'Uma criatura parecida com um animal marinho mas que nada ate mesmo no ar essa criatura tem longos tentaculos e um olho bem no centro da sua cabeca', 0, 15, 0, 10, 5,10, 0, 5,0,'Vivo',1),
+(2,'Luxuria', 19, 3, 1, 'Uma criatura em chamas avermelhadas sem parte da sua cabeca e possivel ver um corpo feminino dessa figura saindo fios vermelhos', 0, 5, 0, 15, 15, 5, 0, 0,0,'Vivo',1),
+(3,'Aranha da Morte', 20, 2, 3, 'Uma criatura que todos temem e sentem desconforto é uma aranha imensa e preta em seu corpo tem espinhos e sua moca da pra ver a propria morte', 0, 10, 0, 5, 10, 15, 0,5,0,'Vivo',1);
+
+
+insert into local (id, descricao ,mapa)
+values (1, 'Uma lago com uma ilha no meio com uma grande arvore imponente e dele sai uma luz azul calma', 1),
+(2, 'Uma grande floresta com longas arvores em chamas que nunca se apagam um lugar muito mais quente e brilhoso', 1),
+(3, 'Uma grande caverna a frente muito escura nao seria possivel andar por ela sem lanternas um pouco mais umida do que o normal com um cheiro forte de morte', 1);

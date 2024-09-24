@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="QuantVend"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Vend"/>
+    <fullyQualifiedTypeName name="java.lang.management.ManagementPermission"/>
+    <fullyQualifiedTypeName name="MenagerVend"/>
+    <fullyQualifiedTypeName name="StockProduct"/>
+    <fullyQualifiedTypeName name="Console"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="Vendedor"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
+    <fullyQualifiedTypeName name="Circulo"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="IFigura"/>
+    <fullyQualifiedTypeName name="iVeiculo"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+</qualifiedTypeNameHistroy>

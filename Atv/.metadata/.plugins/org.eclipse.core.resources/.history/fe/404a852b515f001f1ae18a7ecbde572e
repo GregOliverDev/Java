@@ -1,0 +1,23 @@
+
+public class Motocicleta implements iVeiculo{
+
+	@Override
+	public void acelerar(Double valorAcelercao) {
+		this.velocidade += valorAcelercao;
+	}
+
+	@Override
+	public void frear(Double valorPercentual) {
+		this.velocidade -= (this.velocidade * valorPercentual);
+	}
+
+	@Override
+	public void ligar() {
+		this.motor = "Ligado";
+	}
+
+	@Override
+	public void desligar() {
+		this.motor = "Desligado";
+	}
+}

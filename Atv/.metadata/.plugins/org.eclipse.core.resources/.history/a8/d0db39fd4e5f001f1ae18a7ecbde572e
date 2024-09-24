@@ -1,0 +1,7 @@
+
+public interface iVeiculo {
+public void acelerar();
+public void frear();
+public void ligar();
+public void desligar();
+}

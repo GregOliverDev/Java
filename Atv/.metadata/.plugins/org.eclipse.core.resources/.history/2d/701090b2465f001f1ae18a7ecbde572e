@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Circulo circulo = new Circulo();
+		Quadrado quadrado = new Quadrado();
+		Desenhista desenhista = new Desenhista();
+		
+		circulo.raio = 10.0;
+		quadrado.lado = 10.0;
+		
+		System.out.println(desenhista.calcular_perimetro(circulo));
+		System.out.println(desenhista.calcular_perimetro(quadrado));
+		
+		
+	}
+
+}
