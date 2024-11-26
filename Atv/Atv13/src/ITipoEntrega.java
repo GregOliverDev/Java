@@ -1,5 +1,4 @@
-package Tipos;
 
 public interface ITipoEntrega {
-    public void DefinirTipo();
+    public void DefinirTipo(Entrega entrega);
 }
